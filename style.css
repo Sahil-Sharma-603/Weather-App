@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+body {
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(145deg,#00a5fe, #8a5454);  */
+
+}
+
+.container{
+    background-size: cover; /* This ensures that the image covers the entire background without repetition */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; /* This centers the background image */
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.card{
+    width:100%;
+     max-width: 470px;
+    /* background: linear-gradient(135deg,#00f6fe, #545f8a); */
+    color:#fff;
+     border-radius: 20px;
+    text-align: center;
+}
+.weather-title{
+    font-size:60px;
+    font-weight:400;
+    padding-bottom:20px ;
+}
+
+.search{
+    width:100%;
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+   
+}
+
+.search input{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    height:20px;
+    border-radius:30px;
+    flex:1;
+    margin-right:16px;
+    font-size:20px;
+    padding: 10px 25px;
+}
+
+.btn{
+    width: 130px; 
+    height:35px; 
+    font-size: 20px; 
+    margin-right:16px;
+    outline:0;
+    border:0;
+    border-radius:30px;
+    color: #555;
+    background: #ebfffc;
+    position: relative;
+    top: 20px; 
+    left: 10px; 
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color:#ddd;
+}
+
+.weather-icon{
+    width:200px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size:80px;
+    font-weight:500;
+    padding-top: 30px;
+}
+
+.weather h2{
+    font-size:45px;
+    font-weight:400;
+    margin-top: 10px;
+}
+
+.details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 10px;
+    margin-top: 40px;
+    font-size:20px;
+    
+}
+
+.details2{
+   display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    padding:0 10px;
+    margin-top:50px;
+    font-size:20px;
+}
+
+.col{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.col img{
+    width:50px;
+    margin-right: 10px;
+}
+
+
+
+.wind, .humidity, .feelsLike, .country{
+    font-size:35px;
+    
+}
+
+.feelsLike-icon{
+    filter: invert(100%);
+}
+
+.weatherApp{
+    font-size:80px;
+    font-weight:500;
+  /* padding-bottom: 30px; */
+}
+

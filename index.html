@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="weatherContainer" class = "container">
+       <!-- <h1 class = "search">Weather App</h1> -->
+    <div class="card">
+        <h1 class = "weather-title">Weather App</h1>
+        <div class="search">
+            <input id = "city-search" type="text" placeholder = "Search City" spellcheck = "false">
+        </div>
+        <button type = "button" onclick="searchCity()" class = "btn"> Search </button>
+
+        <div class="weather">
+
+            <h1 class="city">Jalandhar</h1>
+            <h2 class = "temp">22°c (Clear)</h2> 
+            
+            <div class="details">
+                <div class="col">
+                <!-- Humidity image over here -->
+              <img src="humidity 2.png" class = "Humidity-icon">
+                <div>
+                    <p class = "humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+    
+            </div>
+            <div class="col">
+                <!-- wind speed image over here -->
+                <img src="wind.png" class = "wind-icon">
+                <div>
+                    <p class = "wind">20 km/hr</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="details2">
+        <div class="col">
+            <img src="feels-like.png " class = "feelsLike-icon">
+            <div>
+                <p class = "feelsLike">22°c</p>
+                <p>Feels Like</p>
+            </div>
+        </div>
+        <div class="col">
+            <img src="location-pin.190x256.png" class = "feelsLike-icon" >
+            <div>
+                <p class = "country">IN</p>
+                <p>Country</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+</div>
+</body>
+</html>
