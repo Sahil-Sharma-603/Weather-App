@@ -7,5 +7,6 @@
 
 
 ### Instructions:
+- Click "Fork" to create a copy under your account.
 - Download the zip file of source code.
 - Open index.html file on chrome browser.
