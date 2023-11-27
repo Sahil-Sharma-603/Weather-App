@@ -2,7 +2,9 @@
 
 ### The weather app (website-based) displays the temperature based on the city name. It also provides characteristics such as temperature, humidity, wind speed, and country. This weather app provides data based on an API key obtained from [OpenWeather.org](https://openweathermap.org/current)
 
-<img src= "weatherapp.png"  width="670" height="170">
+
+<img width="1342" alt="weatherapp" src="https://github.com/Sahil-Sharma-603/Weather-App/assets/56178181/4f0d0f91-1c2f-4edf-902e-685eda91c935">
+
 
 ### Instructions:
 - Download the zip file of source code.
